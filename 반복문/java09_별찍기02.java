@@ -1,8 +1,8 @@
-package Baekkjun;
+package Baekjun.Baekjun_반복문;
 
 import java.util.Scanner;
 
-public class java_별찍기02 {
+public class java09_별찍기02 {
     public static void main (String args[]) {
         Scanner scanner = new Scanner(System.in);
 
@@ -21,3 +21,4 @@ public class java_별찍기02 {
             }
     }
 }
+// for 문 속 2개의 for 문을 통해 역방향의 별 출력 = 별의 출력과 반대의 띄어쓰기 출력

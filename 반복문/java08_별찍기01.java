@@ -1,8 +1,8 @@
-package Baekkjun;
+package Baekjun.Baekjun_반복문;
 
 import java.util.Scanner;
 
-public class java_별찍기01 {
+public class java08_별찍기01 {
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
 

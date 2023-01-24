@@ -8,14 +8,17 @@ public class java04_사분면 {
         int A = scanner.nextInt();
         int B = scanner.nextInt();
 
+        int decision = 0;
+
         if (A > 0 && B > 0) {
-            System.out.print("1");
+            decision = 1;
         } else if (A < 0 && B > 0) {
-            System.out.print("2");
+            decision = 2;
         } else if (A < 0 && B < 0) {
-            System.out.print("3");
+            decision = 3;
         } else if (A > 0 && B < 0) {
-            System.out.print("4");
+            decision = 4;
         }
+        System.out.print(decision);
     }
 }

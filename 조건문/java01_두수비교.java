@@ -8,12 +8,15 @@ public class java01_두수비교 {
         int A = scanner.nextInt();
         int B = scanner.nextInt();
 
+        String ineq = "";
+
         if (A > B) {
-            System.out.print(">");
+            ineq = ">";
         } else if (A < B) {
-            System.out.print("<");
+            ineq = "<";
         } else {
-            System.out.print("==");
+            ineq = "==";
         }
+        System.out.print(ineq);
     }
 }

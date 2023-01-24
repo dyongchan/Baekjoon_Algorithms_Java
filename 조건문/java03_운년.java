@@ -7,10 +7,13 @@ public class java03_운년 {
         Scanner scanner = new Scanner(System.in);
         int A = scanner.nextInt();
 
+        int decision = 0;
+
         if (((A%4 == 0) && (A%100 != 0)) || (A%400 == 0) ) {
-            System.out.print("1");
+            decision = 1;
         } else {
-            System.out.print("0");
+            decision = 0;
         }
+        System.out.print(decision);
     }
 }

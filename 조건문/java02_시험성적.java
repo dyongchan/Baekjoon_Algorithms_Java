@@ -7,16 +7,19 @@ public class java02_시험성적 {
         Scanner scanner = new Scanner(System.in);
         int A = scanner.nextInt();
 
+        String grade = "";
+
         if (90 <= A && A <= 100) {
-            System.out.print("A");
+            grade = "A";
         } else if (80 <= A && A <= 89) {
-            System.out.print("B");
+            grade = "B";
         } else if (70 <= A && A <= 79) {
-            System.out.print("C");
+            grade = "C";
         } else if (60 <= A && A <= 69){
-            System.out.print("D");
+            grade = "D";
         } else {
-            System.out.print("F");
+            grade = "F";
         }
+        System.out.print(grade);
     }
 }

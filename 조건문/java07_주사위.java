@@ -16,18 +16,21 @@ public class java07_주사위 {
         int max2 = b * 100;
         int max3 = c * 100;
 
+        int money = 0;
+
         if (a == b && b == c) {
-            System.out.print(d);
+            money = d;
         } else if ((a == b) && (b != c) && (a != c) || (a == c) && (a != b) && (c != b)) {
-            System.out.print(e);
+            money = e;
         } else if ((b == c) && (b != a) && (c != a)) {
-            System.out.print(f);
+            money = f;
         } else if ((c < b && b < a) || (b < c && c < a)) {
-            System.out.print(max1);
+            money = max1;
         } else if ((a < c && c < b) || (c < a && a < b) ) {
-            System.out.print(max2);
+            money = max2;
         } else if ((a < b && b < c) || (b < a && a < c) ) {
-            System.out.print(max3);
+            money = max3;
         }
+        System.out.print(money);
     }
 }

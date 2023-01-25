@@ -2,7 +2,7 @@ package Baekjun._조건문;
 
 import java.util.Scanner;
 
-public class java06_오븐시계02 {
+public class java06_오븐시계_기존작성코드 {
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
         int H = scanner.nextInt();
@@ -28,4 +28,5 @@ public class java06_오븐시계02 {
     }
 }
 
-// 어느부분에서 잘못되었는지 찾기가 힘듬
+// 어느부분에서 잘못되었는지 찾기가 힘듬 20230124
+// 너무 어렵게 작성한 코드 = 20230125

@@ -3,7 +3,7 @@ package Baekjun.Baekjun_문자열;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class java07_상수 {
+public class java09_상수 {
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
 

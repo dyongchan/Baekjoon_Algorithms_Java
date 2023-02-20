@@ -2,7 +2,7 @@ package Baekjun.Baekjun_문자열;
 
 import java.util.Scanner;
 
-public class java08_다이얼 {
+public class java10_다이얼 {
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
 

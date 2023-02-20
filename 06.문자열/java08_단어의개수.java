@@ -2,7 +2,7 @@ package Baekjun.Baekjun_문자열;
 
 import java.util.Scanner;
 
-public class java06_단어의개수 {
+public class java08_단어의개수 {
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
 

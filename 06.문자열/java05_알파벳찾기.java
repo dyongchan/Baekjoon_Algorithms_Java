@@ -2,7 +2,7 @@ package Baekjun.Baekjun_문자열;
 
 import java.util.Scanner;
 
-public class java03_알파벳찾기 {
+public class java05_알파벳찾기 {
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
 

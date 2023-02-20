@@ -2,7 +2,7 @@ package Baekjun.Baekjun_문자열;
 
 import java.util.Scanner;
 
-public class java04_문자열반복 {
+public class java06_문자열반복 {
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
 

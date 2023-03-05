@@ -1,12 +1,10 @@
 package Baekjun.Baekjun_정렬;
 
-import org.example.Main;
-
 import java.util.*;
 
 // 나이는 오름차순 / 입력은 입력받은 순
 
-public class java10_나이순정렬 {
+public class java11_나이순정렬 {
 
     public  static class sorting {
         private int age;
@@ -37,16 +35,16 @@ public class java10_나이순정렬 {
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
 
-        ArrayList<Main.sorting> arr = new ArrayList<>();
+        ArrayList<java11_나이순정렬.sorting> arr = new ArrayList<>();
         int N = scanner.nextInt();
 
         for(int i=0; i<N; i++) {
-            arr.add(new Main.sorting(scanner.nextInt(), scanner.next()));
+            arr.add(new java11_나이순정렬.sorting(scanner.nextInt(), scanner.next()));
         }
 
-        Collections.sort(arr, new Comparator<Main.sorting>() {
+        Collections.sort(arr, new Comparator<java11_나이순정렬.sorting>() {
             @Override
-            public int compare(Main.sorting o1, Main.sorting o2) {
+            public int compare(java11_나이순정렬.sorting o1, java11_나이순정렬.sorting o2) {
                 return o1.getAge() - o2.getAge();
             }
         });

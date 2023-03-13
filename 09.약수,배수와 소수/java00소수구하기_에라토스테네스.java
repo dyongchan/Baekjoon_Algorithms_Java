@@ -14,8 +14,8 @@ public class java00소수구하기_에라토스테네스 {
         // false = 소수 / true = 제거된 배수
 
         for(int i=2; i< Math.sqrt(arr.length); i++) {
-            for (int j=i; j*i<arr.length; j=j+1) {
-                arr[i*i] = true; // 해당 값을 제외하고 배수 부터 true 처리
+            for (int j= i * i; j<arr.length; j=j+i) {
+                arr[j] = true; // 해당 값을 제외하고 배수 부터 true 처리
             }
         }
         for (int i=2; i<arr.length; i++) {

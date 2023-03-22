@@ -1,4 +1,4 @@
-package Baekjun.Baekjun_스택;
+package Baekjun.Algorithms_basic.자료구조1;
 
 import java.util.Scanner;
 
